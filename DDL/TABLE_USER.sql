@@ -11,7 +11,7 @@ CREATE TABLE users (
     username VARCHAR(120) NOT NULL,
     password VARCHAR(120) NOT NULL,
     PRIMARY KEY (id),
-    UNIQUE KEY (username)
+    UNIQUE (username)
 );
 
 CREATE TABLE profiles (
